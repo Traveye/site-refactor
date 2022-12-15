@@ -16,19 +16,19 @@ Give our previous code base the goals were to:
 
 Below are some samples of the changes made. It is important to note that these changes have no impact on the overall appearance of the site itself. However, they add vital funcionality for accesibility and add greater context to the site for search engine optimazation.
 
-- Non Semantic. Old code utilized `div` tags and lacked `alt` tags.
+- **Non Semantic**. Old code utilized `div` tags and lacked `alt` tags.
 
 ![alt text](assets/forReadme/nonSemantic.png)
 
-- Semantic. Replaced `div` tags with `main` and `article` tags and added `alt` information.
+- **Semantic**. Replaced `div` tags with `main` and `article` tags and added `alt` information.
 
 ![alt text](assets/forReadme/semantic.png)
 
-- Old Title
+- **Old Title**
 
 ![alt text](assets/forReadme/oldTitle%20(1).png)
 
-- New Title
+- **New Title**
 
 ![alt text](assets/forReadme/newTitle.png)
 
