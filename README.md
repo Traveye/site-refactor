@@ -24,6 +24,10 @@ Below are some samples of the changes made. It is important to note that these c
 
 ![alt text](assets/forReadme/semantic.png)
 
+- **Without Alt** 
+
+- **Alt Attributes**
+
 - **Old Title**
 
 ![alt text](assets/forReadme/oldTitle%20(1).png)

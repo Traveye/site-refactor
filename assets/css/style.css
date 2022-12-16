@@ -24,6 +24,8 @@ body {
     color: #d9dcd6;
 }
 
+/* replaced former div call with nav in lines 29, 37, and 41 to reflect tag update in html to call properly */
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -59,6 +61,8 @@ p {
     background-position: center;
 }
 
+/* combined duplicate calls to .float-left and .float-right with comma to limit redundancy. */
+
 .float-left, .float-right {
     float: left;
     margin-right: 25px;
@@ -81,21 +85,7 @@ p {
     background-color: #2589bd;
 }
 
-.otherBenefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.otherBenefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.otherBenefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* replaced prior 3 classes (search-engine-otpimzation, online-reputation-management, and social media marketing) with main-content to consolidate styling for next three calls. moved code up above styling for otherBenefits to reflect HTML flow */
 
 .main-content {
     margin-bottom: 20px;
@@ -113,6 +103,24 @@ p {
 .main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* replaced three prior class names (benefit-lead, benefit, brand, and benefit cost) to updated class name otherBenefits to consolidate duplicate styling to h3 and img tags nested in aside */
+
+.otherBenefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.otherBenefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.otherBenefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .footer {
