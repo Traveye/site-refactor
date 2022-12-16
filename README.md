@@ -3,7 +3,7 @@
 # Site-Refactor
 
 ## Description
-The purpose of this project was to update a previous code base to comply with modern semantic HTML standards. These standards enhance accesiblity and improve the experience of the site for those with disbalities by providing contextual information for software such as site readers. In addition, these changes improve search engine optimazation. Finally a review was completed to ensure the logical strucure of all elements. 
+The purpose of this project was to update a previous code base to comply with modern semantic HTML standards. These standards improve the experience of the site for those with disbalities by providing necessary information for software such as site readers. In addition, these changes improve search engine optimazation. Finally a review was completed to consolidate duplicate styling and ensure the logical strucure of all elements. 
 
 ### Goals
 Give our previous code base the goals were to:
@@ -14,7 +14,7 @@ Give our previous code base the goals were to:
 4. Ensure all elements follow a logical structure independent of styling and positioning
 5. Ensure the sequential order of all heading attributes.
 
-Below are some samples of the changes made. It is important to note that these changes have no impact on the overall appearance of the site itself. However, they add vital funcionality for accesibility and add greater context to the site for search engine optimazation.
+Below are some samples of the changes made. It is important to note that these changes have no impact on the overall appearance of the site itself. However, they add vital funcionality for accesibility software and add greater context to the site for search engine optimazation.
 
 - **Non Semantic**. Old code utilized `div` tags and lacked `alt` tags.
 
@@ -24,10 +24,6 @@ Below are some samples of the changes made. It is important to note that these c
 
 ![alt text](assets/forReadme/semantic.png)
 
-- **Without Alt** 
-
-- **Alt Attributes**
-
 - **Old Title**
 
 ![alt text](assets/forReadme/oldTitle%20(1).png)
@@ -36,6 +32,13 @@ Below are some samples of the changes made. It is important to note that these c
 
 ![alt text](assets/forReadme/newTitle.png)
 
+- **Consolidated CSS**
+
+![alt text](assets/forReadme/oldCSS.png)
+
+to
+
+![alt text](assets/forReadme/newCSS.png)
 
 
 ## Installation
