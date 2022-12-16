@@ -105,7 +105,7 @@ p {
     font-size: 36px;
 }
 
-/* replaced three prior class names (benefit-lead, benefit, brand, and benefit cost) to updated class name otherBenefits to consolidate duplicate styling to h3 and img tags nested in aside */
+/* replaced three prior class names (benefit-lead, benefit-brand, and benefit-cost) to updated class name otherBenefits to consolidate duplicate styling to h3 and img tags nested in aside */
 
 .otherBenefits {
     margin-bottom: 32px;
