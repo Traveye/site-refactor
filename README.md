@@ -40,6 +40,8 @@ to
 
 ![alt text](assets/forReadme/newCSS.png)
 
+ Thank you for taking the time to review this project! You can view the live site here <a href="https://traveye.github.io/site-refactor/" target="_blank">Horiseon Site Refactor</a>.
+
 
 ## Installation
 N/A
